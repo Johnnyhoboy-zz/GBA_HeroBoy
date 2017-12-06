@@ -1,0 +1,18 @@
+{
+    "cmd": ["make", "build"],
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["make", "run"]
+        },
+        {
+            "name": "Clean",
+            "cmd": ["make", "clean"]
+        },
+        {
+            "name": "All",
+            "cmd": ["make", "all"]
+        }
+    ]
+}
